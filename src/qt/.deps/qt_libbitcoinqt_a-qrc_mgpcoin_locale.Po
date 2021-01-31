@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_mgpcoin_locale.o: qt/qrc_mgpcoin_locale.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

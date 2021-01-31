@@ -1,0 +1,2 @@
+usr/local/bin/mgpcoind usr/bin
+usr/local/bin/mgpcoin-cli usr/bin

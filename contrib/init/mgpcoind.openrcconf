@@ -1,0 +1,26 @@
+# /etc/conf.d/mgpcoind: config file for /etc/init.d/mgpcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mgpcoin/mgpcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mgpcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mgpcoind.pid"
+
+# Where to write mgpcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mgpcoind"
+
+# User and group to own mgpcoind process
+#BITCOIND_USER="mgpcoin"
+#BITCOIND_GROUP="mgpcoin"
+
+# Path to mgpcoind executable
+#BITCOIND_BIN="/usr/bin/mgpcoind"
+
+# Nice value to run mgpcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
